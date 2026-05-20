@@ -1,0 +1,13 @@
+# CellularSonata - Dependencias
+# ==============================
+# Instalar con: pip install -r requirements.txt
+#
+# Versiones mínimas probadas con Python 3.10+
+
+pygame>=2.5.0          # Motor gráfico y mixer de audio
+numpy>=1.24.0           # Arrays y operaciones vectorizadas
+scipy>=1.11.0           # Convolución 2D para el autómata (scipy.signal.convolve2d)
+
+# Opcionales para análisis y exportación
+# matplotlib>=3.7.0     # Visualización de estadísticas
+# music21>=9.1.0         # Exportación a notación musical (MIDI, MusicXML)
